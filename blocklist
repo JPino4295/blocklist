@@ -1,0 +1,47 @@
+!
+! Title: Custom AdGuard DNS filter
+! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
+! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
+! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
+! Last modified: 2020-10-09T15:35:03.646Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.8
+!
+!
+! Source name: AdGuard Base filter ad servers
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt
+!
+!
+! Section contains list of advertising networks
+!
+! The rules with hints are at the end of file
+!
+!! https://a.bestcontentitem.top/warp/*?r=
+!
+
+||ad.doubleclick.net^
+||ad.click.g.doubleclick.net^
+||adservices.google.com^
+||googleads.g.doubclick.net^
+||googleadservicepixel.com^
+||googleadservices.com^
+||googlesyndication.com^
+||pagead2.googlesyndication.com^
+||pubads.g.doubleclick.net^
+||advgoogle.com^
+||blaaaa12.googlecode.com^
+||salefile.googlecode.com^
+||imgpop.googlecode.com^
+||googleadapis.l.google.com^
+||gstaticadssl.l.google.com^
+||googleapi.club^
+||doubleclickbygoogle.com^
+||googlerank.info^
+||video-stats.video.google.com^
+||video-ad-stats.googlesyndication.com^
+||trakksocial.googlecode.com^
+||myscoop-tracking.googlecode.com^
+||attributiontrackingga.googlecode.com^
+||google-pr7.de^
+||google-rank.org^
+||googleanalytcs.com^
